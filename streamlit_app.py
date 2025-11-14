@@ -8,7 +8,6 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 import xgboost as xgb
 import shap
-shap.initjs()
 
 st.set_page_config(page_title="AMR Empiric Adviser (Demo)", layout="centered")
 st.title("AMR Empiric Antibiotic Adviser — Demo (ciprofloxacin)")
